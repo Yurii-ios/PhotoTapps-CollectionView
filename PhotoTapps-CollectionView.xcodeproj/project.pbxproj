@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		F1352F2E243BBED200505095 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1352F2D243BBED200505095 /* AppDelegate.swift */; };
 		F1352F30243BBED200505095 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1352F2F243BBED200505095 /* SceneDelegate.swift */; };
-		F1352F32243BBED200505095 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1352F31243BBED200505095 /* ViewController.swift */; };
 		F1352F35243BBED200505095 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1352F33243BBED200505095 /* Main.storyboard */; };
 		F1352F37243BBED500505095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1352F36243BBED500505095 /* Assets.xcassets */; };
 		F1352F3A243BBED500505095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1352F38243BBED500505095 /* LaunchScreen.storyboard */; };
+		F1352F42243BBF9300505095 /* PhotosCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1352F41243BBF9300505095 /* PhotosCollectionVC.swift */; };
+		F1352F44243BCCFD00505095 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1352F43243BCCFD00505095 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F1352F2A243BBED200505095 /* PhotoTapps-CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhotoTapps-CollectionView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1352F2D243BBED200505095 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1352F2F243BBED200505095 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F1352F31243BBED200505095 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1352F34243BBED200505095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1352F36243BBED500505095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1352F39243BBED500505095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1352F3B243BBED500505095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1352F41243BBF9300505095 /* PhotosCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionVC.swift; sourceTree = "<group>"; };
+		F1352F43243BCCFD00505095 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				F1352F2D243BBED200505095 /* AppDelegate.swift */,
 				F1352F2F243BBED200505095 /* SceneDelegate.swift */,
-				F1352F31243BBED200505095 /* ViewController.swift */,
+				F1352F41243BBF9300505095 /* PhotosCollectionVC.swift */,
+				F1352F43243BCCFD00505095 /* PhotoCell.swift */,
 				F1352F33243BBED200505095 /* Main.storyboard */,
 				F1352F36243BBED500505095 /* Assets.xcassets */,
 				F1352F38243BBED500505095 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1352F32243BBED200505095 /* ViewController.swift in Sources */,
+				F1352F44243BCCFD00505095 /* PhotoCell.swift in Sources */,
+				F1352F42243BBF9300505095 /* PhotosCollectionVC.swift in Sources */,
 				F1352F2E243BBED200505095 /* AppDelegate.swift in Sources */,
 				F1352F30243BBED200505095 /* SceneDelegate.swift in Sources */,
 			);
