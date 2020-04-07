@@ -33,6 +33,14 @@ class PhotosCollectionVC: UICollectionViewController  {
     //        // yberaem polosky sostojanija prokrytki
     //        collectionView.showsVerticalScrollIndicator = false
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "pickPhotoSegue" {
+        let destinationVC = segue.destination as! PhotoVC
+        let cell = sender as! PhotoCell
+            destinationVC.image = cell.dogImageView.image
+        }
+    }
 
     // MARK: UICollectionViewDataSource
 
